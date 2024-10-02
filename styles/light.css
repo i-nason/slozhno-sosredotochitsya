@@ -1,33 +1,35 @@
 
 .page.theme-light {
-  --main-font: 'IBM Plex mono', 'Courier', 'Liberation Mono', 'Menlo', monospace;
   --main-bg-color: #FFF1F7;
   --bg-image: url(../images/cover-image-light.png);
   --main-title-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --accent-color-hover: #32312D66;
+  --accent-color-focus: #353430;
   --main-text-color: #353430;
   --button-color: #353430;
   --button-color-active: #353430;
   --header__title-color: #353430;
-  --article__title-color: #353430;
+  --section__title-color: #353430;
+  --accent-decorated-color: #353430;
   --decoration-visible: none;
   --main-title-shadow: #FF0070;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-font: 'IBM Plex mono', 'Courier', 'Liberation Mono', 'Menlo', monospace;
     --main-bg-color: #FFF1F7;
     --bg-image: url(../images/cover-image-light.png);
     --main-title-color: #FFC2E6;
     --accent-color: #FF8DCB;
     --accent-color-hover: #32312D66;
+    --accent-color-focus: #353430;
     --main-text-color: #353430;
     --button-color: #353430;
     --button-color-active: #353430;
     --header__title-color: #353430;
-    --article__title-color: #353430;
+    --section__title-color: #353430;
+    --accent-decorated-color: #353430;
     --decoration-visible: none;
     --main-title-shadow: #FF0070;
     }

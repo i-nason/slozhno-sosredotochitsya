@@ -1,17 +1,18 @@
 
 .page.theme_dark {
-  --main-font: 'IBM Plex mono', 'Courier', 'Liberation Mono', 'Menlo', monospace;
   --main-bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --main-title-color: #DB00FF;
   --main-title-shadow: #FF0070;
   --accent-color: #FF0070;
   --accent-color-hover: #FF007066;
+  --accent-color-focus: #FF0070;
   --main-text-color: #F1B2CE;
   --button-color: #FF0070;
   --button-color-active: #FF0070;
   --header__title-color: #000028;
-  --article__title-color: #FF0070;
+  --accent-decorated-color: #FF0070;
+  --section__title-color: #FF0070;
   --decoration-visible: visible;
 }
 
